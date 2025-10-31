@@ -1,0 +1,10 @@
+# Ignore all data except the placeholder/readme
+data/*
+!data/README.md
+
+# Jupyter checkpoints and OS cruft
+*.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+.env
